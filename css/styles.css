@@ -1,23 +1,23 @@
 /*
 COLOR PALETTE
 url
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#AIC6d7 - blue light
+834d63 - plum
+e2d9ae - tan
+210124 - dark purple
+162b03 - dark green
+fff4d5 - pale pink
 */
 
 /* Global Styles
 ------------------------ */
 body{
-    color: #343434;
+    color: #162b03;
 }
 img {
     width: 300px;
 }
 a{
-    color: #ffe66d;
+    color: #e2d9ae;
 }
 a:hover{
     text-decoration: none;
@@ -26,40 +26,45 @@ a:hover{
 /* Profile
 ------------------------ */
 header{
-    background-color: #2f3061;
-    color: #f7fff7;
+    background-color: #e2d9ae;
 }
 
 /* Projects
 ------------------------ */
 .projects{
-    background-color: #f7fff7;
+    background-color: #834d63;
+    color: #ffffff;
 }
 .projects a{
-    color: #2f3061;
+    color: #fff4d5;
 }
 .projects .btn{
-    color: #f7fff7;
-    background-color: #2f3061;
+    color: #162b03;
+    background-color: #fff4d5;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
 }
 .projects .btn:hover{
-    background-color: rgba(47,78,97,80);
+    background-color: #ff0b6d83 ;
+    color: #fff4d5;
+}
+
+/* Work experience
+------------------------ */
+.work-experience{
+    background-color: #fff4d5;
 }
 
 
 /* Education
 ------------------------ */
-.work-experience{
-    background-color: #a1c6d7;
-}
+
 
 
 /* Contact Info
 ------------------------ */
 footer{
-    background-color: #343434;
-    color: #f7fff7;
+    background-color: #162b03;
+    color: #fff4d5;
 }
